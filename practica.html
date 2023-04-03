@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+</head>
+<body>
+    <h1>
+        Esta es mi primera pagina web
+    </h1>
+    <hr>
+    <h2>Presentación</h2>
+    <p>
+        <mark> Hola soy <b> Javier !</b> Tengo 25 años.</mark> Estoy cursando una tecnicatura en programacion en la Utn. 
+        Estoy haciendo esta pagina para la materia laboratorio de computacion II y <strong><i> para el futuro!</i></strong>
+        <br/>
+        <br/>
+        Naci el <ins> <em> 7 de octubre de 1997 </em> en  Rosario.</ins>
+        En mis tiempos libres me gusta <del>mirar series, jugar en la pc </del>andar en bici, juntarme con amigos y ir al gimnasio.
+
+    </p>
+    <hr>
+    <h2>Paginas favoritas </h2>
+    <p>Las paginas que uso mas seguido son:</p>
+    <ul>
+        <li> <a href="https://www.youtube.com/" target="_blank" >Youtube</a> </li>
+        <li><a href="https://store.steampowered.com/" target="_blank">Steam</a></li>
+        <li><a href="https://www.google.com.ar/" target="_blank">Google</a></li>
+    </ul>
+    <hr>
+    <h2>Galeria de imagenes</h2>
+    <img src="../Imagenes/Samurai Champloo.jpg" alt="Samurai" width="300" height="300" title="Samurai Champloo">
+    <img src="../Imagenes/SamuraiJack.jpg" alt="Samuraijack" width="300" height="300" title="Samurai Jack">
+    <img src="../Imagenes/Yourname2.jpg" alt="cielo" width="300" height="300" title="Yourname">
+    <hr>
+    
+    <h2>Practica tablas</h2>
+    <table border="1" cellspacing="0" cellpadding="0">
+        <caption>Titulo de la Tabla</caption>
+        <thead>
+            <tr>
+                <td colspan="5">Titulo tabla</td>
+            </tr>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+                <th>Columna 4</th>
+                <th>Columna 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td height="50">1</td>
+                <td>2</td>
+                <td width="70">3</td>
+                <td>4</td>
+                <td rowspan="4">5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="../Imagenes/Samurai Champloo.jpg" alt="Samurai" width="50" height="50" title="Samurai Champloo"></td>
+                <td>3</td>
+                <td>4</td>
+                <!--td>5</td-->
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <!--td>5</td-->
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <!--td>5</td-->
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+
+    <hr>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe excepturi commodi. Ipsum placeat culpa quibusdam incidunt laboriosam, tempore nesciunt, voluptatibus quidem commodi saepe, hic nam temporibus facilis laudantium earum!</p>
+    <form action="">
+        <label for="nomape">Nombre y Apellido</label><br/>
+        <input type="text" name="nomape" id="nomape" size="100" maxlength="20" required placeholder="Ingrese nombre"><br/>
+
+        <input type="password" id="" name=""><br/>
+        <input type="number"id="" name=""><br/>
+        <input type="checkbox" name="Sexo" id="Sexo" value="1">
+        <input type="radio" name="Sexo" id="Sexo" value="1">
+        <input type="radio" name="Sexo" id="Sexo" value="2">
+        <input type="date" name="Fecha" id="">
+        <input type="submit" value="Enviar">
+        <input type="button" value="Enviar 2" onclick="onchangename();">
+
+        
+    </form>
+
+    <form action="">
+        <table cellspacing="0" cellpadding="1">
+            <tr>
+                <td>Nombre y Apellido</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Direccion de Email</td>
+                <td bgcolor="#00dd66">(*)</td>
+            </tr>
+            <tr>
+                <td coldspan="2"><input type="text" name="email" id="email"></td>
+            </tr>
+        </table>
+    </form>
+
+    <hr>
+
+
+</body>
+</html>
