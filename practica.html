@@ -5,8 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera web</title>
+    <style>
+        .clscolor{
+            color: brown;
+        }
+    </style>
+    <script>
+        function HolaMundo(){
+            alert("mensaje en line");
+        }
+    </script>
 </head>
-<body>
+<body onload="javascript:HolaMundo();">
     <h1>
         Esta es mi primera pagina web
     </h1>
@@ -130,6 +140,25 @@
     </form>
 
     <hr>
+    <!--Comentario lalalala-->
+    <div id="cont2" class="clscolor" style="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates hic aspernatur id molestias ipsum vel aliquid quis dignissimos autem eius perspiciatis veniam ratione, repudiandae a, deserunt dolores libero, voluptate cum.
+        <ul>
+            <li>text1</li>
+        </ul>
+    </div>
+    <a href="https://youtu.be/NI9cZyhDJOU" target="_blank">ver video</a>
+    <div id="video">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/NI9cZyhDJOU" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+    </div>
+    
 
 
 </body>
